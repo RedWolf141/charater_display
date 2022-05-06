@@ -28,7 +28,7 @@ char* type;
 class program : public person{
 //private:
 public:
-    void makeBox(int vector, char* material);
+    void makeBox(int vector, char* material, int size);
     void EMP(int time);
 
 public:
